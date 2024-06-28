@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="cr.ac.ucenfotec.views.ArmarComponenteaFamiliaMn">
+  <grid id="27dc6" binding="ArComFAMn" layout-manager="GridLayoutManager" row-count="16" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="20" bottom="0" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="891" height="543"/>
+    </constraints>
+    <properties>
+      <background color="-13631488"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="aa30a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-393995"/>
+          <text value="Indicar el Tipo de la Familia"/>
+        </properties>
+      </component>
+      <component id="c3131" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13947600"/>
+          <foreground color="-393995"/>
+          <text value="SubTipo Familia"/>
+        </properties>
+      </component>
+      <component id="d187f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13947600"/>
+          <foreground color="-393995"/>
+          <text value="Ram"/>
+        </properties>
+      </component>
+      <component id="b4a1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-393995"/>
+          <text value="Numero de SticksRAM"/>
+        </properties>
+      </component>
+      <component id="4240a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-393995"/>
+          <text value="Almacenamiento"/>
+        </properties>
+      </component>
+      <component id="a317f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-393995"/>
+          <text value="Tipo GPU"/>
+        </properties>
+      </component>
+      <component id="9e7fb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-393995"/>
+          <text value="Tarjeta Madre"/>
+        </properties>
+      </component>
+      <component id="948a2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-393995"/>
+          <text value="Procesador"/>
+        </properties>
+      </component>
+      <component id="bfb0f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-393995"/>
+          <text value="Bateria"/>
+        </properties>
+      </component>
+      <component id="b6101" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-393995"/>
+          <text value="Monitor"/>
+        </properties>
+      </component>
+      <component id="aac51" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-393995"/>
+          <text value="Fuente de Poder"/>
+        </properties>
+      </component>
+      <component id="4e6ad" class="javax.swing.JButton" binding="registrarButton">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1745640"/>
+          <font style="1"/>
+          <foreground color="-393995"/>
+          <text value="Registar Armado Computadora"/>
+        </properties>
+      </component>
+      <component id="6baba" class="javax.swing.JButton" binding="volverAMenuButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1745640"/>
+          <font style="1"/>
+          <foreground color="-393995"/>
+          <text value="Volver a Menu"/>
+        </properties>
+      </component>
+      <scrollpane id="1edb0">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="66543" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="3748a" class="javax.swing.JButton" binding="modificarComputadoraButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1745640"/>
+          <font style="1"/>
+          <foreground color="-393995"/>
+          <text value="Modificar Computadora"/>
+        </properties>
+      </component>
+      <component id="317cf" class="javax.swing.JButton" binding="eliminarComputadoraButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1745640"/>
+          <font style="1"/>
+          <foreground color="-393995"/>
+          <text value="Eliminar Computadora"/>
+        </properties>
+      </component>
+      <component id="19e2f" class="javax.swing.JComboBox" binding="FamiliasPrincipales">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Escolares"/>
+            <item value="Sobremesa"/>
+            <item value="Portables"/>
+            <item value="Servidores"/>
+          </model>
+        </properties>
+      </component>
+      <component id="e1b57" class="javax.swing.JComboBox" binding="SubFamilias">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Oficina"/>
+            <item value="Gaming"/>
+            <item value="Workstation"/>
+            <item value="Casa"/>
+            <item value="Trabajo"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a403c" class="javax.swing.JComboBox" binding="RAM">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="4 GB"/>
+            <item value="8 GB"/>
+            <item value="16 GB"/>
+            <item value="24 GB"/>
+            <item value="32 GB"/>
+            <item value="64 GB"/>
+            <item value="128 GB"/>
+            <item value="256 GB"/>
+            <item value="512 GB"/>
+            <item value="1024 GB"/>
+          </model>
+        </properties>
+      </component>
+      <component id="81377" class="javax.swing.JComboBox" binding="numeroSticks">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+            <item value="9"/>
+            <item value="10"/>
+            <item value="11"/>
+            <item value="12"/>
+            <item value="13"/>
+            <item value="14"/>
+            <item value="15"/>
+            <item value="16"/>
+          </model>
+        </properties>
+      </component>
+      <component id="2b95c" class="javax.swing.JComboBox" binding="Almacenamiento">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="1TB HDD"/>
+            <item value="2TB HDD"/>
+            <item value="128GB SSD"/>
+            <item value="256GB SSD"/>
+            <item value="512GB SSD"/>
+            <item value="1 TB SSD"/>
+            <item value="32 GB"/>
+            <item value="64 GB"/>
+            <item value="128 GB"/>
+          </model>
+        </properties>
+      </component>
+      <component id="adf8f" class="javax.swing.JComboBox" binding="tipoGPU">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="GPU calculo científico"/>
+            <item value="GPU renderizado"/>
+            <item value="GPU homeworking"/>
+          </model>
+        </properties>
+      </component>
+      <component id="3670b" class="javax.swing.JComboBox" binding="tarjetaMadre">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="SI"/>
+            <item value="NO"/>
+          </model>
+        </properties>
+      </component>
+      <component id="7112a" class="javax.swing.JComboBox" binding="procesador">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="SI"/>
+            <item value="NO"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a8e06" class="javax.swing.JComboBox" binding="Monitor">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="SI"/>
+            <item value="NO"/>
+          </model>
+        </properties>
+      </component>
+      <component id="c1212" class="javax.swing.JComboBox" binding="bateria">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="8 horas"/>
+            <item value="10 horas"/>
+            <item value="16 horas"/>
+          </model>
+        </properties>
+      </component>
+      <component id="6a1b8" class="javax.swing.JComboBox" binding="fuentePoder">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+          </model>
+        </properties>
+      </component>
+      <component id="ea67d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-393995"/>
+          <text value="ID"/>
+        </properties>
+      </component>
+      <component id="ba9fc" class="javax.swing.JTextField" binding="obtenerID">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Solo se utiliza para Modificar o Eliminar"/>
+        </properties>
+      </component>
+      <component id="94213" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="26" style="1"/>
+          <foreground color="-1745640"/>
+          <text value="Armar componente"/>
+        </properties>
+      </component>
+      <component id="a73f3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="15" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1745640"/>
+          <text value="Grupo F. 2023"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
